@@ -4,7 +4,7 @@ defmodule BpollackElixirTemplate do
   
   use MixTemplates,
     name:       :bpollack_elixir_template,
-    short_desc: "Template for ....",
+    short_desc: "Template by Brandon Pollack for a good base Elixir project",
     source_dir: "../template"
 
   

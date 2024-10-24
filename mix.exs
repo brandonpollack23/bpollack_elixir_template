@@ -9,11 +9,11 @@ defmodule BpollackElixirTemplate.Mixfile do
     { :ex_doc,         ">0.0.0",  only: [:dev, :test] },
   ]
 
-  @maintainers ["Your Name <youe@example.com>"]
-  @github      "https://github.com/•••/#{@name}"
+  @maintainers ["Brandon Pollack"]
+  @github      "https://github.com/brandonpollack23/#{@name}"
 
   @description """
-  What your template does (less than 300 characters)
+  Brandon Pollack's basic elixir template for new projects.
   """
   
   # ------------------------------------------------------------
