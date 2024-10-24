@@ -5,7 +5,7 @@ defmodule BpollackElixirTemplate.Mixfile do
   @version "0.1.0"
 
   @deps [
-    { :mix_templates,  ">0.0.0",  app: false },
+    { :mix_templates,  ">0.0.0" },
     { :ex_doc,         ">0.0.0",  only: [:dev, :test] },
   ]
 
@@ -37,7 +37,7 @@ defmodule BpollackElixirTemplate.Mixfile do
       name:        @name,
       files:       ["lib", "mix.exs", "README.md", "LICENSE.md", "template"],
       maintainers: @maintainers,
-      licenses:    ["Apache 2.0"],
+      licenses:    ["MIT"],
       links:       %{
         "GitHub" => @github,
       },
