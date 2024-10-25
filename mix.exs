@@ -2,7 +2,7 @@ defmodule BpollackElixirTemplate.Mixfile do
   use Mix.Project
 
   @name    :bpollack_elixir_template
-  @version "0.1.0"
+  @version "0.1.1"
 
   @deps [
     { :mix_templates,  ">0.0.0" },
