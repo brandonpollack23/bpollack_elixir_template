@@ -4,10 +4,10 @@
 Mix.install(
   [
     {:kino, "~> 0.14.0"},
-    {:ch5, path: Path.join(__DIR__, ".."), env: :dev}
+    {:<%= @project_name %>, path: Path.join(__DIR__, ".."), env: :dev}
   ],
   # config_path: :my_app, # uncomment if there is a config.exs
-  lockfile: :ch5
+  lockfile: :<%= @project_name %>
 )
 ```
 
@@ -15,8 +15,6 @@ Mix.install(
 
 ```elixir
 Kino.Process.render_seq_trace(fn ->
-  { :ok, kvs } = KeyValueGenServer.start()
-  KeyValueGenServer.put(kvs, :abc, 123)
-  KeyValueGenServer.get(kvs, :abc)
+  # TODO
 end)
 ```
